@@ -36,5 +36,6 @@ public class UsersController {
         log.info("UsersController:  list users");
         Users resource = usersService.saveUser(user);
         return ResponseEntity.ok(resource);
+        system.out.print("Hello");
     }
 }
